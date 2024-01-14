@@ -1,0 +1,27 @@
+/* about.module.css */
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.sidebar {
+  width: 300px;
+  padding: 20px;
+  background-color: #f0f0f0;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+/* Estilos responsivos */
+@media (max-width: 768px) {
+  .container {
+    justify-content: space-around; /* Ajusta el espacio entre las tarjetas */
+  }
+
+  .sidebar {
+    width: 100%; /* Cambia el ancho a 100% en pantallas más pequeñas */
+    margin: 0; /* Elimina el margen en pantallas más pequeñas */
+  }
+}
