@@ -24,8 +24,8 @@ h1 {
 
 .logo {
   position: absolute;
-  top: 10px; /* Ajusta la posición vertical según tus necesidades */
-  left: 10px; /* Ajusta la posición horizontal según tus necesidades */
+  top: 2px; /* Ajusta la posición vertical según tus necesidades */
+  left: 2px; /* Ajusta la posición horizontal según tus necesidades */
   width: 50px; /* Ajusta el ancho según tus necesidades */
   height: auto; /* Ajusta la altura automáticamente según el ancho */
   border-radius: 50%; /* Esto redondeará la imagen */

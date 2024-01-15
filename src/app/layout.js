@@ -16,16 +16,17 @@ const roboto = Roboto({
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <body>{children}</body>
       <div className="logo-container">
         <Image
           src="/img/logotipo.png"
           alt="Logo de tu sitio"
           className="logo"
-          width={100} // Ajusta el ancho según tus necesidades
-          height={50} // Ajusta la altura según tus necesidades
+          width={45} // Ajusta el ancho según tus necesidades
+          height={22} // Ajusta la altura según tus necesidades
         />
       </div>
-      <body>{children}</body>
+      
     </html>
   );
 }
