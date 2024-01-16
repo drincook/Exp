@@ -16,7 +16,6 @@ const roboto = Roboto({
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body>{children}</body>
       <div className="logo-container">
         <Image
           src="/img/logotipo.png"
@@ -26,7 +25,7 @@ export default function RootLayout({ children }) {
           height={22} // Ajusta la altura según tus necesidades
         />
       </div>
-      
+      <body>{children}</body>
     </html>
   );
 }
