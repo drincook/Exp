@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Carattere&family=Tangerine&display=swap");
+
 body {
   margin: 0;
   padding: 0;
@@ -6,7 +8,7 @@ body {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  font-family: "Inter", sans-serif; /* Asegúrate de tener la fuente Inter cargada */
+  font-family: "Inter", sans-serif, "roboto"; /* Asegúrate de tener la fuente Inter cargada */
   color: #fff; /* Texto blanco */
   background-color: #000; /* Fondo negro */
   display: flex; /* Usa un contenedor flexible para centrar el contenido */
@@ -37,6 +39,8 @@ h1 {
 }
 
 .text-title {
-  color: #333;
-  font-size: 1.5em;
+  color: black;
+  font-size: 2.4em;
+  font-family: "Caracttere", cursive;
+  font-family: "Tangerine", cursive;
 }

@@ -1,9 +1,8 @@
 import Link from "next/link";
 import Image from "next/image";
-//import AboutPage from "./about/page";
-//import Gallery from "./gallery";
 import TargetPage from "./target/page";
 import FooterPage from "./footer/page";
+
 const page = () => {
   return (
     <div style={{ textAlign: "center" }}>

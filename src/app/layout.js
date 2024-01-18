@@ -1,6 +1,7 @@
 import "./globals.css";
 import Image from "next/image";
-import { Roboto } from "next/font/google";
+
+import logotipo from "/public/img/logotipo.png";
 
 export const metadata = {
   title: "Eldrincook",
@@ -8,17 +9,12 @@ export const metadata = {
     "¡Bienvenido a El DrinCook, tu destino para una experiencia multisensorial única!",
 };
 
-const roboto = Roboto({
-  weight: ["300", "400", "500", "700"],
-  styles: ["italic", "normal"],
-  subsets: ["latin"],
-});
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <div className="logo-container">
         <Image
-          src="/img/logotipo.png"
+          src={logotipo}
           alt="Logo de tu sitio"
           className="logo"
           width={45} // Ajusta el ancho según tus necesidades
