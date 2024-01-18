@@ -11,7 +11,9 @@ const TargetPage = () => {
         marginTop: "20px",
       }}
     >
-      <div style={{ width: "200px", margin: "10px" }}>
+      <div
+        style={{ width: "calc(50% - 10px)", margin: "10px", maxWidth: "150px" }}
+      >
         <h2>Desarrollo Personal Completo</h2>
         <Link
           href="https://go.hotmart.com/J87955773T"
