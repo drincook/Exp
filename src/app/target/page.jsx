@@ -5,7 +5,7 @@ const TargetPage = () => {
   return (
     <div className="caractTarg">
       <div
-        style={{ width: "calc(50% - 10px)", margin: "10px", maxWidth: "412px" }}
+        style={{ width: "calc(50% - 10px)", margin: "10px", maxWidth: "174px" }}
       >
         <h2>Desarrollo Personal Completo</h2>
         <Link
@@ -33,7 +33,9 @@ const TargetPage = () => {
           <button>Comprar</button>
         </Link>
       </div>
-      <div style={{ width: "200px", margin: "10px" }}>
+      <div
+        style={{ width: "calc(50% - 10px)", margin: "10px", maxWidth: "174px" }}
+      >
         <h2>Máster Personal Online</h2>
         <Link
           href="https://go.hotmart.com/Q87997542Q"
@@ -61,7 +63,9 @@ const TargetPage = () => {
           <button>Comprar</button>
         </Link>
       </div>
-      <div style={{ width: "200px", margin: "10px" }}>
+      <div
+        style={{ width: "calc(50% - 10px)", margin: "10px", maxWidth: "174px" }}
+      >
         <h2>Seminario Superación Depresión</h2>
         <Link
           href="https://go.hotmart.com/W88770619M"
@@ -90,7 +94,9 @@ const TargetPage = () => {
           <button>Comprar</button>
         </Link>
       </div>
-      <div style={{ width: "200px", margin: "10px" }}>
+      <div
+        style={{ width: "calc(50% - 10px)", margin: "10px", maxWidth: "147px" }}
+      >
         <h2>Claves Desarrollo Deportivo Hijo</h2>
         <Link
           href="https://go.hotmart.com/M89282250L"
@@ -118,7 +124,9 @@ const TargetPage = () => {
           <button>Comprar</button>
         </Link>
       </div>
-      <div style={{ width: "200px", margin: "10px" }}>
+      <div
+        style={{ width: "calc(50% - 10px)", margin: "10px", maxWidth: "174px" }}
+      >
         <h2>Guía Seguridad Personal</h2>
         <Link
           href="https://go.hotmart.com/C89233915L"
