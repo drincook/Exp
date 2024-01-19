@@ -5,7 +5,7 @@ const TargetPage = () => {
   return (
     <div className="caractTarg">
       <div
-        style={{ width: "calc(50% - 10px)", margin: "10px", maxWidth: "174px" }}
+        style={{ width: "calc(50% - 10px)", margin: "10px", maxWidth: "160px" }}
       >
         <h2>Desarrollo Personal Completo</h2>
         <Link
@@ -34,7 +34,7 @@ const TargetPage = () => {
         </Link>
       </div>
       <div
-        style={{ width: "calc(50% - 10px)", margin: "10px", maxWidth: "174px" }}
+        style={{ width: "calc(50% - 10px)", margin: "10px", maxWidth: "160px" }}
       >
         <h2>Máster Personal Online</h2>
         <Link
@@ -64,7 +64,7 @@ const TargetPage = () => {
         </Link>
       </div>
       <div
-        style={{ width: "calc(50% - 10px)", margin: "10px", maxWidth: "174px" }}
+        style={{ width: "calc(50% - 10px)", margin: "10px", maxWidth: "160px" }}
       >
         <h2>Seminario Superación Depresión</h2>
         <Link
@@ -95,7 +95,7 @@ const TargetPage = () => {
         </Link>
       </div>
       <div
-        style={{ width: "calc(50% - 10px)", margin: "10px", maxWidth: "147px" }}
+        style={{ width: "calc(50% - 10px)", margin: "10px", maxWidth: "160px" }}
       >
         <h2>Claves Desarrollo Deportivo Hijo</h2>
         <Link
@@ -125,7 +125,7 @@ const TargetPage = () => {
         </Link>
       </div>
       <div
-        style={{ width: "calc(50% - 10px)", margin: "10px", maxWidth: "174px" }}
+        style={{ width: "calc(50% - 10px)", margin: "10px", maxWidth: "160px" }}
       >
         <h2>Guía Seguridad Personal</h2>
         <Link
