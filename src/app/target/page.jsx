@@ -3,16 +3,9 @@ import Image from "next/image";
 
 const TargetPage = () => {
   return (
-    <div
-      style={{
-        display: "flex",
-        flexWrap: "wrap",
-        justifyContent: "space-around",
-        marginTop: "20px",
-      }}
-    >
+    <div className="caractTarg">
       <div
-        style={{ width: "calc(50% - 10px)", margin: "10px", maxWidth: "150px" }}
+        style={{ width: "calc(50% - 10px)", margin: "10px", maxWidth: "412px" }}
       >
         <h2>Desarrollo Personal Completo</h2>
         <Link
