@@ -1,0 +1,42 @@
+.target-card {
+  width: calc(50% - 20px);
+  margin: 10px auto;
+  max-width: 280px;
+  background: #fff;
+  padding: 8px;
+  color: black;
+  text-align: justify;
+  text-align-last: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 6px;
+  font-family: "Sora", Helvetica, Arial, Lucida, sans-serif;
+}
+
+.target-card p,
+title {
+  text-align: justify;
+}
+
+button {
+  /* Estilos comunes para todos los botones */
+  background-color: #4caf50;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+button:hover {
+  /* Estilos adicionales para el estado de hover */
+  background-color: #45a049;
+}
+
+.target-card h2 {
+  font-size: 10px;
+}
+
+.target-card p {
+  font-size: 9px;
+}
