@@ -69,6 +69,13 @@ const TargetPage = () => {
         description="¡Descubre el emocionante mundo de la música con nuestro Curso DJ Profesional! Aprende las mejores técnicas, domina la mezcla y crea sonidos únicos. ¡Haz de tu pasión por la música una profesión emocionante!"
       />
       <TargetCard
+        title="Curso Aficion al Café"
+        imgSrc="/img/cursocafe.png"
+        linkHref="https://go.hotmart.com/B90202928V"
+        buttonText="Comprar"
+        description="Aficionados al Café, descubre el Curso que transformará tu relación con esta deliciosa bebida: Despierta tu curiosidad por el mundo del café. Explora sus variedades, métodos de preparación y secretos. Conviértete en un experto catador y maestro cafetero. ¡Inscríbete ahora y sumérgete en el apasionante universo del café!"
+      />
+      <TargetCard
         title="Guia Seguridad Personal"
         imgSrc="/img/seguridadpersonal.jpg"
         linkHref="https://go.hotmart.com/C89233915L"
