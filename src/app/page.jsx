@@ -24,8 +24,33 @@ const page = () => {
           alt="Picture of the author"
         />
       </Link>
+
       <p className="palamusica">Tu musica </p>
       <div>
+        <div className="flex-container">
+          <div className="imgpresentadora">
+            <Image
+              className="lamusha-logo"
+              src="/img/lamushasha.png"
+              width={200}
+              height={190}
+              alt="Lamusha Logo"
+            />
+            <p className="texcontenido">
+              @lamushashadelatienda <br />
+              tiktok
+            </p>
+          </div>
+          <div className="text-presenter">
+            <p className="presenter-text">
+              Como sabes, somos una estación de transmisión independiente y tu
+              apoyo es fundamental para nosotros. Mantener nuestra transmisión
+              es un desafío constante y tu contribución hace posible que
+              continuemos ofreciendo contenido de calidad. ¿Nos ayudas a seguir
+              adelante?{" "}
+            </p>
+          </div>
+        </div>
         <div className="zeno-radio">
           <iframe
             style={{
@@ -51,6 +76,7 @@ const page = () => {
             A Zeno.FM Station
           </Link>
         </div>
+
         <TargetPage />
         <FooterPage />
       </div>

@@ -40,3 +40,47 @@ button:hover {
 .target-card p {
   font-size: 9px;
 }
+
+.flex-container {
+  display: flex;
+  align-items: center; /* Alinea verticalmente los elementos */
+  justify-content: center; /* Centra horizontalmente los elementos */
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.texcontenido {
+  display: flex;
+  flex-direction: column-reverse;
+  margin-top: 2px;
+}
+
+.imgpresentadora {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centra horizontalmente los elementos */
+  width: 190px;
+  height: 13.125rem;
+  margin: auto;
+}
+
+.text-presenter {
+  width: 100%;
+}
+
+.presenter-text {
+  font-size: 0.8rem;
+  line-height: 1.5;
+}
+
+@media screen and (min-width: 768px) {
+  .presenter-text {
+    font-size: 1.2rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .presenter-text {
+    font-size: 1.4rem;
+  }
+}
