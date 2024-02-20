@@ -21,9 +21,24 @@ export const authOptions: NextAuthOptions = {
   secret: process.env.NEXTAUTH_SECRET,
 };
 
-getUser;
-
 const handler = NextAuth(authOptions);
 export default authOptions;
+
+getUser; // Make sure to call this function when verifying the user in a middleware so that the session is populated.
+// We need to redefine the `handle` method on the exported function because we want to add some custom logic
+// before delegating to the built-in `NextAuth` implementation.
+handler.handle = async (req: NextApiRequest, res: NextApiResponse) => {
+  try {
+    const user = await getUser();
+    if (!user && req.url?.startsWith("/api")) {
+      return res.redirect("/login");
+    }
+
+    return await handler(req, res);
+  } catch (error) {
+    console.log("Error in nextauth handle", error);
+    return res.status(500).send(error);
+  }
+};
 
 export { handler as GET, handler as POST };
