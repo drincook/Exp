@@ -18,7 +18,9 @@ const page = async () => {
   return (
     <div className="w-full flex flex-col justify-center items-center">
       {!user ? (
-        <h1 className="text-3xl font-extrabold mt-10">Sign in to view your post!</h1>
+        <h1 className="text-3xl font-extrabold mt-10">
+          Sign in to view your post!
+        </h1>
       ) : (
         <div className="max-w-[90%] mt-10">
           <div className="w-full text-center mb-10">
