@@ -24,7 +24,7 @@ export const authOptions: NextAuthOptions = {
 const handler = NextAuth(authOptions);
 export default authOptions;
 
-getUser; // Make sure to call this function when verifying the user in a middleware so that the session is populated.
+// Make sure to call this function when verifying the user in a middleware so that the session is populated.
 // We need to redefine the `handle` method on the exported function because we want to add some custom logic
 // before delegating to the built-in `NextAuth` implementation.
 handler.handle = async (req: NextApiRequest, res: NextApiResponse) => {
