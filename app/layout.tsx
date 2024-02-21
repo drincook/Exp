@@ -14,7 +14,7 @@ const roboto = Roboto({
 
 export const metadata: Metadata = {
   title: "eldrincook",
-  description: "Exploremos juntos el mundo",
+  description: "Exploremos juntos el mundo a tu estilo",
 };
 
 export default async function RootLayout({
