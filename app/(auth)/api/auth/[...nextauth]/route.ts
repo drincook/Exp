@@ -22,7 +22,7 @@ export const authOptions: NextAuthOptions = {
 };
 
 const handler = NextAuth(authOptions);
-export default authOptions;
+//export default authOptions;
 
 // Make sure to call this function when verifying the user in a middleware so that the session is populated.
 // We need to redefine the `handle` method on the exported function because we want to add some custom logic
