@@ -25,7 +25,4 @@ handler.handle = async (req: NextApiRequest, res: NextApiResponse) => {
   }
 };
 
-export const GET = (req: NextApiRequest | Request, res: NextApiResponse) =>
-  handler(req, res);
-export const POST = (req: NextApiRequest | Request, res: NextApiResponse) =>
-  handler(req, res);
+export default handler;
