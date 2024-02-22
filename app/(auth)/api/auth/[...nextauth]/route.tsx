@@ -1,5 +1,6 @@
 import type { NextApiRequest, NextApiResponse } from "next";
-import NextAuth, { type NextAuthOptions } from "next-auth";
+import { NextApiRequest as Request } from "next";
+import NextAuth from "next-auth";
 import getCurrentUser from "@/app/actions/getCurrentUser";
 import { authOptions } from "../../../utils/authRoute";
 
@@ -24,7 +25,7 @@ handler.handle = async (req: NextApiRequest, res: NextApiResponse) => {
   }
 };
 
-export const GET = (req: NextApiRequest, res: NextApiResponse) =>
+export const GET = (req: NextApiRequest | Request, res: NextApiResponse) =>
   handler(req, res);
-export const POST = (req: NextApiRequest, res: NextApiResponse) =>
+export const POST = (req: NextApiRequest | Request, res: NextApiResponse) =>
   handler(req, res);
