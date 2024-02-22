@@ -1,4 +1,5 @@
 import type { NextApiRequest, NextApiResponse } from "next";
+import { NextApiHandler } from "next";
 import { NextApiRequest as Request } from "next";
 import NextAuth from "next-auth";
 import getCurrentUser from "@/app/actions/getCurrentUser";
@@ -25,4 +26,10 @@ handler.handle = async (req: NextApiRequest, res: NextApiResponse) => {
   }
 };
 
-export default handler;
+export const GET = async (req: NextApiRequest, res: NextApiResponse) => {
+  return await handler.handle(req, res);
+};
+
+export const POST = async (req: NextApiRequest, res: NextApiResponse) => {
+  return await handler.handle(req, res);
+};
