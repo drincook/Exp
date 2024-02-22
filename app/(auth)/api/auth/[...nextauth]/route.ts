@@ -2,8 +2,11 @@ import type { NextApiRequest, NextApiResponse } from "next";
 import NextAuth, { NextAuthOptions } from "next-auth";
 import GoogleProvider from "next-auth/providers/google";
 import { PrismaAdapter } from "@auth/prisma-adapter";
-import prisma from "@/lib/prismadb";
+import { PrismaClient } from "@prisma/client";
+//import prisma from "@/lib/prismadb";
 import getCurrentUser from "@/app/actions/getCurrentUser";
+
+const prisma = new PrismaClient();
 
 const getUser = async () => {
   const user = await getCurrentUser();
@@ -23,9 +26,6 @@ export const authOptions: NextAuthOptions = {
 
 const handler = NextAuth(authOptions);
 
-// Make sure to call this function when verifying the user in a middleware so that the session is populated.
-// We need to redefine the `handle` method on the exported function because we want to add some custom logic
-// before delegating to the built-in `NextAuth` implementation.
 handler.handle = async (req: NextApiRequest, res: NextApiResponse) => {
   try {
     const user = await getUser();
@@ -40,4 +40,8 @@ handler.handle = async (req: NextApiRequest, res: NextApiResponse) => {
   }
 };
 
-export { handler as GET, handler as POST };
+// Exporta los manejadores para GET y POST
+export const GET = (req: NextApiRequest, res: NextApiResponse) =>
+  handler(req, res);
+export const POST = (req: NextApiRequest, res: NextApiResponse) =>
+  handler(req, res);
