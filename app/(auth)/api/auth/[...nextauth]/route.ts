@@ -34,11 +34,3 @@ export const POST = async (
 ) => {
   return await handler.handle(req, res);
 };
-
-
-/*export const POST = async (
-  req: NextApiRequest | Request,
-  res: NextApiResponse
-) => {
-  return await handler.handle(req, res);
-};*/
