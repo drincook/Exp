@@ -29,8 +29,16 @@ export const GET = async (req: Request | NextRequest, res: NextApiResponse) => {
 };
 
 export const POST = async (
-  req: NextApiRequest | Request,
+  req: Request | NextRequest,
   res: NextApiResponse
 ) => {
   return await handler.handle(req, res);
 };
+
+
+/*export const POST = async (
+  req: NextApiRequest | Request,
+  res: NextApiResponse
+) => {
+  return await handler.handle(req, res);
+};*/
