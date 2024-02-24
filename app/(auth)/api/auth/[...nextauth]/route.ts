@@ -10,8 +10,8 @@ import { getServerSession } from "next-auth";
   return user;
 };*/
 
-export async function getSession() {
-  return await getServerSession(authOptions);
+function getSession() {
+  return getServerSession(authOptions);
 }
 
 const handler = NextAuth(authOptions);
