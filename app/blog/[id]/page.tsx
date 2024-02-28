@@ -16,7 +16,7 @@ import { CgVercel } from "react-icons/cg";
 //${API_URL}/post/${id}
 const API_URL = "/api";
 const getData = async (id: string) => {
-  const res = await fetch(`${API_URL}/post/${id}`, {
+  const res = await fetch(`/api/post/${id}`, {
     cache: "no-store",
   });
   if (!res.ok) {
