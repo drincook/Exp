@@ -1,5 +1,6 @@
 import Tag from "@/components/ui/Tag";
 import Image from "next/image";
+
 import {
   AiOutlineTwitter,
   AiOutlineInstagram,
@@ -8,9 +9,10 @@ import {
 import { PostTypes } from "@/types/postTypes";
 import { formatDate } from "@/utils/formatDate";
 import Link from "next/link";
+import { CgVercel } from "react-icons/cg";
 
 //const API_URL = process.env.NEXT_PUBLIC_API_URL || "http://localhost:3000/api";
-const API_URL = process.env.NEXT_PUBLIC_API_URL || "http://localhost:3000/api";
+const API_URL = process.env.NEXTAUTH_URL || "http://localhost:3000/api";
 
 const getData = async (id: string) => {
   const res = await fetch(`${API_URL}/post/${id}`, {

@@ -6,6 +6,7 @@ import Footer from "@/components/shared/Footer";
 import AuthContext from "@/context/AuthContext";
 import getCurrentUser from "./actions/getCurrentUser";
 import { EdgeStoreProvider } from "@/lib/edgestore";
+import { Analytics } from "@vercel/analytics/react";
 
 const roboto = Roboto({
   subsets: ["latin"],
@@ -30,6 +31,7 @@ export default async function RootLayout({
           <body className={`${roboto.className} overflow-x-hidden bg-light`}>
             <Navbar user={user as any} />
             {children}
+            <Analytics />
             <Footer />
           </body>
         </EdgeStoreProvider>
