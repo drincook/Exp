@@ -26,6 +26,7 @@ const getData = async (id: string) => {
 
 const page = async ({ params }: { params: PostTypes }) => {
   const { id } = params;
+  console.log("ID:", id);
   const post = await getData(id);
   return (
     <div className="w-[95%] mx-auto max-w-[1450px]">
