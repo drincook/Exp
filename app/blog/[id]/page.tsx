@@ -14,8 +14,9 @@ import { CgVercel } from "react-icons/cg";
 //const API_URL = process.env.NEXTAUTH_URL || "http://localhost:3000/api";
 //${API_URL}/post/${id}
 //const API_URL = "/api";
+//`${process.env.serverURL}/api/post/${id}`;
 const getData = async (id: string) => {
-  const url = `${process.env.serverURL}/api/post/${id}`;
+  const url = `${process.env.NEXT_PUBLIC_VERCEL_URL}/api/post/${id}`;
   console.log("URL:", url);
   const res = await fetch(url, {
     cache: "no-store",
