@@ -30,7 +30,16 @@ const getData = async (id: string) => {
     //return res.json();
   } catch (error) {
     console.error("Error fetching data:", error);
-    throw error;
+    if (
+      error instanceof TypeError &&
+      error.message.includes("Failed to fetch")
+    ) {
+      throw new Error(
+        "Failed to fetch data. Please check your authentication credentials."
+      );
+    } else {
+      throw error; // Re-lanza el error para que pueda ser manejado externamente
+    }
   }
 };
 
