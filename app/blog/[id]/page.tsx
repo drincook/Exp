@@ -16,15 +16,22 @@ import { CgVercel } from "react-icons/cg";
 //const API_URL = "/api";
 //`${process.env.serverURL}/api/post/${id}`;
 const getData = async (id: string) => {
-  const url = `${process.env.NEXT_PUBLIC_VERCEL_BRANCH_URL}/api/post/${id}`;
-  console.log("URL:", url);
-  const res = await fetch(url, {
-    cache: "no-store",
-  });
-  if (!res.ok) {
-    throw new Error("Failed");
+  try {
+    const url = `${process.env.NEXT_PUBLIC_VERCEL_BRANCH_URL}/api/post/${id}`;
+    console.log("URL:", url);
+    const res = await fetch(url, {
+      cache: "no-store",
+    });
+    if (!res.ok) {
+      throw new Error(`Failed to fetch data. Status: ${res.status}`);
+    }
+    const data = await res.json();
+    return data;
+    //return res.json();
+  } catch (error) {
+    console.error("Error fetching data:", error);
+    throw error;
   }
-  return res.json();
 };
 
 const page = async ({ params }: { params: PostTypes }) => {
