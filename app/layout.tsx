@@ -7,6 +7,7 @@ import AuthContext from "@/context/AuthContext";
 import getCurrentUser from "./actions/getCurrentUser";
 import { EdgeStoreProvider } from "@/lib/edgestore";
 import { Analytics } from "@vercel/analytics/react";
+import Carousel  from "@/components/shared/Carousel";
 
 const roboto = Roboto({
   subsets: ["latin"],
@@ -32,6 +33,7 @@ export default async function RootLayout({
             <Navbar user={user as any} />
             {children}
             <Analytics />
+            <Carousel />
             <Footer />
           </body>
         </EdgeStoreProvider>

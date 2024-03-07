@@ -5,6 +5,7 @@ import useMenuActive from "@/hooks/useMenuActive";
 import { navLinks } from "@/constants";
 import Route from "../ui/Route";
 import Link from "next/link";
+import Image from "next/image";
 const Footer = () => {
   return (
     <>
@@ -19,6 +20,24 @@ const Footer = () => {
       <div className="w-full py-5 bg-tertiary mt-10">
         <div className="w-[95%] mx-auto max-w-[1450px]">
           <div className="py-5 border-b border-gray-300 border-opacity-20 flex justify-between items-center max-md:flex-col max-md:gap-8">
+            <Link
+              href="https://paypal.me/eldrincook"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Image
+                style={{
+                  display: "inline-block",
+                  borderRadius: "10%",
+                  overflow: "hidden",
+                }}
+                src="/assets/paypalimg.jpg"
+                height={50}
+                width={50}
+                alt="colaborativo"
+                className="ingress"
+              />
+            </Link>
             <div className="flex-1 relative">
               <h1 className="text-4xl carattere-regular text-secondary p-4">
                 <span className="p-6 r-4 items-center text-sexto">El</span>
