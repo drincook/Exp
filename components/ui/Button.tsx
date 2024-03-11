@@ -6,6 +6,7 @@ interface buttonProps {
   aria: string;
   action?: boolean;
   type?: "button" | "submit" | "reset";
+  disabled?: boolean;
 }
 const Button = ({ text, onClick, aria, action, type }: buttonProps) => {
   return (
