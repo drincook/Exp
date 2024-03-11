@@ -3,7 +3,7 @@ import Image from "next/image";
 import Overlay from "@/components/ui/Overlay";
 import Button from "@/components/ui/Button";
 import Map from "@/components/ui/Map";
-import { sendEmail } from "../api/send/route";
+import { post } from "../api/send/route";
 import { useState } from "react";
 
 const page = () => {
@@ -32,7 +32,7 @@ const page = () => {
       formDataToSend.append("phone", formData.phone);
       formDataToSend.append("message", formData.message);
 
-      await sendEmail(formDataToSend);
+      await post(formDataToSend);
       setFormData({
         name: "",
         senderEmail: "",
@@ -78,7 +78,7 @@ const page = () => {
           className="flex flex-col w-full gap-5"
           onSubmit={handleSubmit}
           action={async (formData) => {
-            await sendEmail(formData);
+            await post(formData);
           }}
         >
           <div className="flex gap-5 max-sm:flex-col">
