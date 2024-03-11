@@ -3,7 +3,7 @@ import { Resend } from "resend";
 
 const resend = new Resend(process.env.RESEND_API_KEY);
 
-export const sendEmail = async (formData: FormData) => {
+export async function sendEmail(formData: FormData): Promise<any> {
   const senderEmail = formData.get("senderEmail");
   const message = formData.get("message");
 
@@ -25,5 +25,8 @@ export const sendEmail = async (formData: FormData) => {
     });
   } catch (error) {
     console.log(error);
+    return {
+      error: "An error occurred while sending the email",
+    };
   }
-};
+}
