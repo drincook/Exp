@@ -3,7 +3,7 @@ import Image from "next/image";
 import Overlay from "@/components/ui/Overlay";
 import Button from "@/components/ui/Button";
 import Map from "@/components/ui/Map";
-import { post } from "../api/send/route";
+import post from "../api/send/route";
 import { useState } from "react";
 
 const page = () => {
