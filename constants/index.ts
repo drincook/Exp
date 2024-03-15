@@ -15,4 +15,8 @@ export const navLinks = [
     route: "/contact",
     label: "Contact",
   },
+  {
+    route: "/podcasts",
+    label: "Radio/Podcasts",
+  },
 ];
