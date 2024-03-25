@@ -9,3 +9,18 @@
   font-weight: 400;
   font-style: normal;
 }
+
+@keyframes marquee {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.marquee-text {
+  animation: marquee 22s linear infinite;
+  white-space: nowrap;
+  -webkit-animation: marquee 22s linear infinite;
+}

@@ -1,0 +1,119 @@
+[
+  {
+    "id": 1,
+    "name": "Producto 1",
+    "title": "MAQUILLAJE PROFESIONAL",
+    "image": "/assets/img1.jpg",
+    "description": "¡Conviértete en un experto en maquillaje con nuestro curso profesional! Acceso de por vida, certificado al finalizar, 18 módulos y 61 videos con subtítulos en español e inglés. Aprende técnicas de maquillaje social y tips para emprender como Makeup Artist. ¡Inscríbete ahora y descubre tu potencial!",
+    "action": "¡Comprar ahora!",
+    "link": "https://hotm.art/3LXgjhgx"
+  },
+  {
+    "id": 2,
+    "name": "Producto 2",
+    "title": "INTELIGENCIA ARTIFICIAL",
+    "image": "/assets/img2.jpg",
+    "description": "Incorpora la Inteligencia Artificial en tu labor educativa y destaca como un docente innovador. Aprende a utilizarla para motivar y desafiar a tus estudiantes, potenciando su aprendizaje de manera significativa. ¡No dejes que la tecnología te supere, sé parte del cambio!",
+    "action": "¡Comprar ahora!",
+    "link": "https://hotm.art/gwSV8hg"
+  },
+  {
+    "id": 3,
+    "name": "Producto 3",
+    "title": "SUPERACION DE DEPRESION",
+    "image": "/assets/img3.jpg",
+    "description": "Supera la depresión con nuestro seminario único. Descubre las causas, gestiona tus emociones y renueva tu mente con 7 conferencias y 6 expertos. Acceso desde cualquier dispositivo, ¡desde cualquier lugar del mundo! Únete ahora y transforma tu vida.",
+    "action": "¡Comprar ahora!",
+    "link": "https://hotm.art/klzBRFp"
+  },
+  {
+    "id": 4,
+    "name": "Producto 4",
+    "title": "CEJAS PROFESIONALES",
+    "image": "/assets/img4.jpg",
+    "description": "Conviértete en un técnico profesional de cejas y pestañas. Aprende desde cero en simples pasos. ¡No necesitas experiencia previa! Descubre los 4 pilares del éxito en este arte. Práctica, constancia, dedicación y disciplina. ¡Únete ahora y transforma tu vida!",
+    "action": "¡Comprar ahora!",
+    "link": "https://hotm.art/yMhtdFg"
+  },
+  {
+    "id": 5,
+    "name": "Producto 5",
+    "title": "COSMETICO DE ALOE VERA",
+    "image": "/assets/img5.jpg",
+    "description": "¡Descubre el poder del Aloe Vera en tu rutina de belleza! Aprende paso a paso a crear tus propios productos de cosmética natural. Conviértete en tu propio experto y disfruta de una piel radiante y saludable. ¡Empieza hoy mismo tu viaje hacia una belleza más natural y consciente!",
+    "action": "¡Comprar ahora!",
+    "link": "https://hotm.art/xRJYddy"
+  },
+  {
+    "id": 6,
+    "name": "Producto 6",
+    "title": "DESARROLLO DEPORTIVO",
+    "image": "/assets/img6.jpg",
+    "description": "Potencia el desarrollo deportivo de tu hijo(a) y conviértete en su soporte ideal. Descubre cómo fortalecer su mente para enfrentar desafíos con confianza, mantener la calma bajo presión y superar obstáculos con determinación. ¡Transforma su rendimiento en el deporte y en la vida!",
+    "action": "¡Comprar ahora!",
+    "link": "https://hotm.art/p5iWIn"
+  },
+  {
+    "id": 7,
+    "name": "Producto 7",
+    "title": "POSTRES EN VASOS",
+    "image": "/assets/img7.jpg",
+    "description": "¡Emprende desde casa en 2024 con los postres en vasos más innovadores del mercado! Con nuestro ebook, aprenderás técnicas únicas para destacarte y sorprender a tus clientes. ¡Aprovecha esta oportunidad y convierte tu pasión en un negocio exitoso hoy mismo!",
+    "action": "¡Comprar ahora!",
+    "link": "https://hotm.art/5GBlnD"
+  },
+  {
+    "id": 8,
+    "name": "Producto 8",
+    "title": "DJ PROFESIONAL",
+    "image": "/assets/img8.jpg",
+    "description": "¡Conviértete en un DJ Profesional en solo 17 días! Aprende los secretos de los mejores DJs del mundo sin necesidad de experiencia previa. ¡No importa tu edad ni el equipo que tengas! ¡Aprovecha esta oferta por tiempo limitado!",
+    "action": "¡Comprar ahora!",
+    "link": "https://hotm.art/rcgIB2"
+  },
+  {
+    "id": 9,
+    "name": "Producto 9",
+    "title": "CURSO AFICION AL CAFE",
+    "image": "/assets/img9.jpg",
+    "description": "Aprende a preparar café delicioso y ahorra $100 al año. Solo $29 por tiempo limitado. Mejores resultados que las cápsulas de Nespresso. Ahorra, disfruta y aprende. ¡Únete ahora!",
+    "action": "¡Comprar ahora!",
+    "link": "https://hotm.art/I5zfDr"
+  },
+  {
+    "id": 10,
+    "name": "Producto 10",
+    "title": "SEGURIDAD PERSONAL",
+    "image": "/assets/img10.jpg",
+    "description": "¡Descubre cómo estar seguro en cualquier lugar con nuestra Guía de Seguridad Personal! Aprende herramientas prácticas y datos reales de un especialista con años de experiencia. Transforma tu autoconfianza hoy mismo. ¡Bienvenido a un nuevo mundo de seguridad y desarrollo personal!",
+    "action": "¡Comprar ahora!",
+    "link": "https://hotm.art/0Le0b3wF"
+  },
+  {
+    "id": 11,
+    "name": "Producto 11",
+    "title": "SABORES QUE SANAN",
+    "image": "/assets/img11.jpg",
+    "description": "Transforma tu alimentación con nuestras recetas saludables para diabéticos. Mejora tu calidad de vida y descubre nuevos sabores. ¡Prueba ahora y vive mejor!",
+    "action": "¡Comprar ahora!",
+    "link": "https://hotm.art/u2s7yPhX"
+  },
+  {
+    "id": 12,
+    "name": "Producto 12",
+    "title": "DESARROLLO PERSONAL EXPRESS",
+    "image": "/assets/img12.jpg",
+    "description": "¡Únete hoy al Máster de Desarrollo Personal de IPP y comienza tu viaje hacia una vida plena y significativa! Descubre las claves prácticas para transformar tu vida en todas sus áreas. ¡No esperes más para empezar tu crecimiento personal!",
+    "action": "¡Comprar ahora!",
+    "link": "https://hotm.art/gcoyP9"
+  },
+  {
+    "id": 13,
+    "name": "Producto 13",
+    "title": "DESARROLLO PERSONAL INTEGRAL",
+    "image": "/assets/img13.jpg",
+    "description": "Transforma tu vida en 90 días con nuestro curso de desarrollo personal integral. ¡Para mujeres de 30 a 65 años! Aprende a cuidar tu cuerpo, alma y espíritu. ¡Sin habilidades previas! Únete al reto de 90 días y disfruta de resultados positivos en tu vida laboral y familiar. ¡Inicia tu viaje hacia una versión mejor de ti misma ahora!",
+    "action": "¡Comprar ahora!",
+    "link": "https://hotm.art/cDOF0eV"
+  }
+]
