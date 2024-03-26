@@ -45,16 +45,14 @@ const ProductReel: React.FC = () => {
   }, []);
   return (
     <div className="relative">
-      <div
-        className={`absolute top-0 left-0 right-0 bg-black text-white p-4 z-10 text-center `}
-      >
-        <p className={`marquee-text ${textSize} text-white`}>
-          ¡Haz que cada día cuente con nuestros productos! Sintoniza nuestra
-          radio en línea y sumérgete en historias de superación. ¡Inspírate y
-          lleva tu vida al siguiente nivel con cada compra!
+      <div className="top-0 left-0 right-0 bg-black text-white p-4 z-10 text-center">
+        <p className={`${textSize} text-white`}>
+          ¡Despierta tu potencial y conquista tus metas con nuestros productos!
+          Descubre historias inspiradoras mientras sintonizas nuestra radio en
+          línea. ¡Haz que cada compra sea un paso hacia una vida más plena!
         </p>
       </div>
-      <br />
+
       {/* Reel de productos */}
       <div className="flex flex-nowrap overflow-x-auto p-4 swiper-container mt-16">
         <div className="swiper-wrapper flex flex-row">
