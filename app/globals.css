@@ -20,7 +20,7 @@
 }
 
 .marquee-text {
+  -webkit-animation: marquee 22s linear infinite;
   animation: marquee 22s linear infinite;
   white-space: nowrap;
-  -webkit-animation: marquee 22s linear infinite;
 }
